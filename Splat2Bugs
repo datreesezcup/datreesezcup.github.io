@@ -1,0 +1,9 @@
+This is a list of known bugs/issues present in either Splat2 Widgets or Splat2 Edge.
+Please check this list for your bug before sending a bug report via email. If you do not see your bug,
+you may email me at datreesezcup@gmail.com
+
+SPLAT2 WIDGETS - Widgets for any android device running 5.1 or higher
+-Map rotation widget takes extremely long time to load first time it is ever placed.
+
+SPLAT2 EDGE - Edge Panels for Samsung Devices running 5.1 or higher
+-No known bugs
