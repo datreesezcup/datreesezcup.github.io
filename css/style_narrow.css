@@ -5,15 +5,15 @@ body {
 	  }
 	  
 h1 {
-	font-size:60px;
+	font-size:40px;
 }
 
 h2 {
-	font-size:50px;
+	font-size:30px;
 }
 
 h3 {
-	font-size:40px;
+	font-size:20px;
 }
 
 p, ul, ol, button {
@@ -42,7 +42,7 @@ p, ul, ol, button {
   border-radius: 5px;
   width:80%;
   padding:0px;
-  margin-bottom:-50px;
+  margin-bottom:-30px;
   display: block;
 }
 
