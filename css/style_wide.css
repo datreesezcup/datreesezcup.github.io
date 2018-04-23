@@ -1,0 +1,47 @@
+body {
+		background-image: url("../src/img/bg_stripes.png");
+		background-color:dimgray;
+		color: white;
+		
+	  }
+	  
+h2 {
+	font-size:25px;
+}
+h3 {
+	font-size:20px;
+}
+
+p, ul, ol, button {
+	font-size:15px;
+}
+
+.appContainer {
+	display: table;
+	width: 80%;
+	border-spacing:25px;
+}
+
+.appbox {
+  border: 2px solid white;
+  display: table-cell;
+  position:relative;
+  margin-top:25px;
+}
+.appbox li {
+  text-align: left;
+  margin-top: 5px;
+  margin-bottom:5px
+}
+.appbox button {
+	position: absolute;
+	right:0;
+	bottom:0;
+	width:100%;
+}
+.appbox img {
+  border-radius: 5px;
+  width:40%;
+  padding:0px;
+  display: block;
+}
