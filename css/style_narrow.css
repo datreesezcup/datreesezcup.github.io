@@ -5,19 +5,19 @@ body {
 	  }
 	  
 h1 {
-	font-size:70px;
-}
-
-h2 {
 	font-size:60px;
 }
 
-h3 {
+h2 {
 	font-size:50px;
 }
 
+h3 {
+	font-size:40px;
+}
+
 p, ul, ol, button {
-	font-size:35px;
+	font-size:25px;
 }
 
 .appContainer {
@@ -42,10 +42,16 @@ p, ul, ol, button {
   border-radius: 5px;
   width:80%;
   padding:0px;
-  margin-bottom:-80px;
+  margin-bottom:-50px;
   display: block;
 }
 
 .appbox button {
 	width: 100%;
+}
+
+.helpbox {
+	border: 2px solid white;
+	width:80%;
+	padding:10px;
 }

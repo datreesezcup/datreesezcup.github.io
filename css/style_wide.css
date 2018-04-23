@@ -28,7 +28,7 @@ p, ul, ol, button {
   position:relative;
   margin-top:25px;
 }
-.appbox li {
+.appbox li, .helpbox li {
   text-align: left;
   margin-top: 5px;
   margin-bottom:5px
@@ -44,4 +44,10 @@ p, ul, ol, button {
   width:40%;
   padding:0px;
   display: block;
+}
+
+.helpbox {
+	border: 2px solid white;
+	width:80%;
+	padding:10px;
 }
