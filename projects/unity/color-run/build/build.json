@@ -1,0 +1,39 @@
+{
+"companyName": "datreesezcup",
+"productName": "Color Run",
+"productVersion": "1.0",
+"dataUrl": "color-run.data.unityweb",
+"wasmCodeUrl": "color-run.wasm.code.unityweb",
+"wasmFrameworkUrl": "color-run.wasm.framework.unityweb",
+"graphicsAPI": ["WebGL 2.0","WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#231F20",
+"developmentBuild": false,
+"multithreading": false,
+"unityVersion": "2019.2.3f1",
+"overview": "In this game, you control the small shape. Your shape is a specific color. There will be a object rushing towards you with 4 differently colored parts. Your goal is to move your shape to the part of the object that is the same color as you. Over time, the \"plates\" will start getting faster. Good Luck",
+"controls": [
+    {
+        "name": "Controls",
+        "items": [
+            {
+                "action": "Move to top position",
+                "key": "[W]/[&uparrow;]"
+            },
+            {
+                "action": "Move to left position",
+                "key": "[A]/[&leftarrow;]"
+            },
+            {
+                "action": "Move to bottom position",
+                "key": "[S]/[&downarrow;]"
+            },
+            {
+                "action": "Move to right position",
+                "key": "[D]/[&rightarrow;]"
+            }
+        ]
+    }
+]
+}

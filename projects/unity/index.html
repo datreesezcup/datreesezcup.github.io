@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Hunter Nickel - Unity</title>
+        <meta name="description" content="Programming Portfolio for Hunter Nickel, also known as DatReesezCup">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <!-- Popper JS -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <!-- Latest compiled JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+        <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+        <link rel="stylesheet" href="/assets/css/style.css">
+
+        <script src="/assets/js/root.js"></script>
+
+        <style>
+
+            .phoneAlert {
+                display: none;
+            }
+
+            /*This media query fires if the primary device is a pointer*/
+            @media screen and (pointer:none) {
+
+                * {
+                    color: red;
+                }
+
+                .phoneAlert {
+                    display: initial; /*reset*/
+                }
+
+                .demoFooter {
+                    display: none;
+                }
+                
+            }
+        </style>
+
+    </head>
+    
+    <body>
+      
+        <nav class="navbar navbar-dark navbar-expand-md">
+            <a class="navbar-brand" href="/">Hunter Nickel</a> <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#myNavbar">&#x2630;</button> 
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav ml-auto">
+                    <li class="nav-item"><a href="/" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item"><a href="/experience/" class="nav-link">Experience</a>
+                    </li>
+                    <li class="nav-item"><a href="/certifications/" class="nav-link">Certifications</a>
+                    </li>
+                    <li class="active dropdown nav-item"> <a class="dropdown-toggle nav-link" data-toggle="dropdown">Projects<span class="caret"></span></a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="/projects/app-development/">App Development</a>
+                            <a class="active dropdown-item" href="/projects/unity/">Unity</a>
+                            <a class="dropdown-item" href="/projects/3d-modeling/">3D Modeling</a>
+                </li>
+                <li class="nav-item"><a href="/about/" class="nav-link">About</a>
+                </li>
+                <li class="nav-item"> <a onclick="toggleTheme(true)" title="Toggle Theme" role="button" class="nav-link">
+        
+                              <i id="themeButton" class="las la-adjust"></i></a>
+                </li>
+                </ul>
+                </div>
+        </nav>
+
+      <div class="container-fluid homeHeader">
+          <div class="jumbotron">
+              <div class="headerRow row align-items-center">
+                  <div class="headerNameDiv col-lg-12 padding-0">
+                      <div class="mx-auto text-center align-middle">
+                           <h1>Unity Projects</h1>
+                           <h5>These are my Unity projects that are hosted here on Github</h5>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="container">
+
+        <div class="alert alert-info alert-dismissible phoneAlert">
+            <strong>Attention: </strong>To be able to demo these projects, please visit this page on a desktop.
+            <button type="button" class="close" data-dismiss="alert">&times;</button>
+        </div>
+
+           <h4>Games</h4>
+          <hr>
+          <div class="row">
+              <div class="col-lg-6">
+                  <div class="experienceItem card">
+                      <div class="card-header">Color Run</div>
+                      <div class="card-body">
+                          <div class="row">
+                              <div class="col-lg-4">
+                                  <img style="display: inline-block;" src="assets/images/col_run_ico.png"
+                                  alt="Color Run Logo">
+                              </div>
+                              <div class="col-lg-8">
+                                  <p><strong>Color Run</strong> is a game I made for a school project, in which
+                                      you try to move to match your color to 1 of 4 locations</p>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="card-footer demoFooter"> <a href="player.html?project=color-run" class="btn btn-primary" role="button">Play</a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <br>
+           <h4>3D Showcases</h4>
+           <br>
+          <p>These are Unity projects that add functionality to 3D art I have created</p>
+          <hr>
+          <div class="row">
+              <div class="col-lg-6">
+                  <div class="experienceItem card">
+                      <div class="card-header"><abbr title="Joint Attack &amp; Defense">JAD</abbr> Series Demo</div>
+                      <div
+                      class="card-body">
+                          <div class="row">
+                              <div class="col-lg-4">
+                                  <img class="rounded-circle" style="display: inline-block;" src="assets/images/jad.png"
+                                  alt="Color Run Logo">
+                              </div>
+                              <div class="col-lg-8">
+                                  <p>This showcase lets you operate 3 different military vehicles in a mock
+                                      cityscape.</p>
+                              </div>
+                          </div>
+                  </div>
+                  <div class="card-footer demoFooter"> <a href="player.html?project=jad-demo" class="btn btn-primary" role="button">View</a>
+                  </div>
+              </div>
+          </div>
+      </div>
+      </div>
+  </body>
+    </html>

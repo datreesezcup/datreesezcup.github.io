@@ -1,0 +1,62 @@
+:root {
+    
+    --body-color: #c0c0cc;
+    --body-color-darker: #a9a9b3;
+
+    --text-color: #292a44;
+    --text-color-darker: #343557;
+
+    --accent-color: #AA55AA;
+    --accent-color-bright: #FF99FF;
+
+    /*Card Colors */
+    --card-elevation: rgba(0,0,0,0.8);
+    
+
+}
+
+:root.dark {
+    --body-color: #292a44;
+    --body-color-darker: #1f1f33;
+    --body-color-lighter: #343557;
+
+    --text-color: #c0c0cc;
+    --text-color-darker: #a9a9b3;
+
+    --accent-color: #AA55AA;
+    --accent-color-bright: #FF99FF;
+
+    --card-elevation: rgba(255, 255, 255, 0.2);
+}
+
+@media (prefers-color-scheme: dark) {
+    
+    :root.light{
+    
+        --body-color: #c0c0cc;
+        --body-color-darker: #a9a9b3;
+    
+        --text-color: #292a44;
+        --text-color-darker: #343557;
+
+        --accent-color: #AA55AA;
+        --accent-color-bright: #FF99FF;
+
+        --card-elevation: rgba(0,0,0,0.2);
+    
+    }
+    
+    :root {
+        --body-color: #292a44;
+        --body-color-darker: #1f1f33;
+        --body-color-lighter: #343557;
+    
+        --text-color: #c0c0cc;
+        --text-color-darker: #a9a9b3;
+    
+        --accent-color: #AA55AA;
+        --accent-color-bright: #FF99FF;
+
+        --card-elevation: rgba(255, 255, 255, 0.2);
+    }
+}

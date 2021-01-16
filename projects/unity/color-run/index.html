@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Hunter Nickel | Color Run</title>
+        <meta name="description" content="Programming Portfolio for Hunter Nickel, also known as DatReesezCup">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <!-- Latest compiled JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+        <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+        <link rel="stylesheet" href="../../../assets/css/style.css">
+
+        <script src="../assets/js/UnityLoader.js"></script>
+        <script src="../assets/js/umanager.js"></script>
+      <script>
+        loadUnity("build/color-run.json");
+      </script>
+
+    </head>
+    
+    <body>
+        <!--Insert navbar when done with everything-->
+
+        
+          
+          <div class="container">
+            <h1 class="text-center">Color Run</h1>
+            <div class="row" style="margin-bottom: 10px;">
+              <div class="col-md-12">
+                <div id="unityContainer" class="center-block">
+                </div>
+              </div>
+            </div>
+
+            <button id="goFull" class="fullscreenButton center-block btn btn-default" onclick="SetFullscreen(1);">Go Fullscreen</button>
+            
+          <ul class="nav nav-tabs">
+            <li class="active"><a data-toggle="tab" href="#overview">Overview</a></li>
+            <li><a data-toggle="tab" href="#controls">Controls</a></li>
+          </ul>
+          
+          <div class="tab-content">
+            <div id="overview" class="tab-pane fade in active">
+              <h3>Overview</h3>
+              <p>In this game, you control the small shape.
+                Your shape is a specific color. There will be a object rushing
+                towards you with 4 differently colored parts.
+                Your goal is to move
+                your shape to the part of the object that is the same color as you.
+                Over time, the "plates" will start getting faster.
+                Good Luck</p>
+            </div>
+            <div id="controls" class="tab-pane fade">
+              <h3>Controls</h3>
+              <ul class="list-group">
+                <li class="list-group-item">
+                  Move to top position: <kbd>W</kbd> or <kbd>&uparrow;</kbd>
+                </li>
+                <li class="list-group-item">
+                  Move to left position: <kbd>A</kbd> or <kbd>&leftarrow;</kbd>
+                </li>
+                <li class="list-group-item">
+                  Move to right position: <kbd>D</kbd> or <kbd>&rightarrow;</kbd>
+                </li>
+                <li class="list-group-item">
+                  Move to bottom position: <kbd>S</kbd> or <kbd>&downarrow;</kbd>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </body>
+    </html>

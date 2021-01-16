@@ -1,0 +1,86 @@
+{
+"companyName": "datreesezcup",
+"productName": "JAD Series Demo",
+"productVersion": "1.0",
+"dataUrl": "jad-demo.data.unityweb",
+"wasmCodeUrl": "jad-demo.wasm.code.unityweb",
+"wasmFrameworkUrl": "jad-demo.wasm.framework.unityweb",
+"graphicsAPI": ["WebGL 2.0","WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#231F20",
+"developmentBuild": false,
+"multithreading": false,
+"unityVersion": "2019.2.3f1",
+"overview": "In this showcase, you can control 3 military vehicles around a small city",
+"controls": [
+    {
+        "name": "Global Controls",
+        "items": [
+            {
+                "action": "Cycle to next vehicle",
+                "key": "[Tab]"
+            },
+            {
+                "action": "Cycle to next camera view",
+                "key": "[C]"
+            }
+        ]
+    },
+    {
+        "name": "JADVU Controls",
+        "items": [
+            {
+                "action": "Fly forwards/left/backwards/right",
+                "key": "[W]/[A]/[S]/[D]"
+            },
+            {
+                "action": "Rotate left/right",
+                "key": "[Q]/[E]"
+            },
+            {
+                "action": "Increase/Decrease Elevation",
+                "key": "[+]/[-]"
+            }
+        ]
+    },
+    {
+        "name": "JADTU Controls",
+        "items": [
+            {
+                "action": "Move forwards/backwards",
+                "key": "[W]/[S]"
+            },
+            {
+                "action": "Turn left/right",
+                "key": "[A]/[D]"
+            },
+            {
+                "action": "Rotate turret left/right",
+                "key": "[&leftarrow;]/[&rightarrow;]"
+            },
+            {
+                "action": "Angle barrels up/down",
+                "key": "[&uparrow;]/[&downarrow;]"
+            },
+            {
+                "action": "Switch between tank/walker mode",
+                "key": "[E]"
+            }
+        ]
+    },
+    {
+        "name": "JADWU Controls",
+        "items": [
+            {
+                "action": "Walk forwards/backwards",
+                "key": "[W]/[S]"
+            },
+            {
+                "action": "Turn left/right",
+                "key": "[A]/[D]"
+            }
+        ]
+    }
+]
+}
